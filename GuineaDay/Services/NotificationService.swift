@@ -33,7 +33,7 @@ final class NotificationService {
         else { return }
 
         let content       = UNMutableNotificationContent()
-        content.title     = "Guinea Day 🐾"
+        content.title     = "GuineaDay 🐾"
         content.body      = task.title
         content.sound     = .default
 
